@@ -14,3 +14,4 @@
 
 1. `npm run build` - bundle project
 2. `npm run dev` - run DevServer
+3. `npm run deploy` - deploy dist folder to GitHub Pages
