@@ -21,7 +21,7 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.js$/,
+            test: /\.(js|jsx)$/,
             use: 'babel-loader',
             exclude: path.resolve(__dirname, "node_modules")
         },
@@ -30,7 +30,7 @@ module.exports = {
                 type: 'asset/resource',
             },
             {
-                test: /\.css$/,
+                test: /\.(css|pcss)$/,
                 use: [MiniCssExtractPlugin.loader, {
                     loader: 'css-loader',
                     options: {

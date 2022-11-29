@@ -8,6 +8,9 @@ const presets = [
             safari: '11.1'
         },
         useBuiltIns: "entry"
+    }],
+    ["@babel/preset-react", {
+        "runtime": "automatic"
     }]
 ];
 

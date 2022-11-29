@@ -9,6 +9,7 @@
 5. Css-loader
 6. Cssnano
 7. Postcss-loader
+8. React
 
 ## Scripts
 
