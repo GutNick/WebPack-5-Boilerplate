@@ -10,6 +10,7 @@
 6. Cssnano
 7. Postcss-loader
 8. React
+9. TypeScript
 
 ## Scripts
 
